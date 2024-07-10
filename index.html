@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header class="border shadow">
+        <nav class="max-w-[1200px] mx-auto flex items-center justify-between py-4">
+            <img src="images/logo.jpg" alt="" width="150">
+            <div class="flex items-center gap-9">
+                <i class="fa-solid fa-house fa-sm" style="color: #74C0FC;"></i>
+                <i class="fa-solid fa-user-group fa-sm" style="color: #74C0FC;"></i>
+                <i class="fa-regular fa-bell fa-sm" style="color: #74C0FC;"></i>
+                <i class="fa-regular fa-message fa-sm" style="color: #74C0FC;"></i>
+            </div>
+            <div class="bg-gray-300 items-center gap-2 p-1 rounded-lg">
+                <i class="fa-solid fa-magnifying-glass fa-sm"></i>
+                <input type="text" placeholder="Search people" class="bg-transparent text-gray-600 placeholder:text-gray-600 outline-none" >
+            </div>
+        </nav>
+    </header>
+    <main class="max-w-[1200px] mx-auto mt-7 flex gap-11 justify-between">
+        <div class="left flex flex-col gap-4">
+            <div class="flex gap-4 items-center shadow p-4 pr-12 rounded">
+                <img src="images/man.jpg" alt="" width="50" height="50" class="rounded-full">
+                <div>
+                    <h3 class="font-bold">Jin Keguar</h3>
+                    <span>Manager</span>
+                </div>
+            </div>
+            <div class="shadow p-4 rounded flex flex-col ju">
+                <div class="flex gap-4 items-center">
+                    <i class="fa-brands fa-square-reddit" style="color: #74C0FC;"></i>
+                    <span>Reddit Inc.</span>
+                </div>
+                <div class="flex gap-4 items-center">
+                    <i class="fa-brands fa-google" style="color: #74C0FC;"></i>
+                    <span>Google search</span>
+                </div>
+                <div class="flex gap-4 items-center">
+                    <i class="fa-brands fa-tiktok" style="color: #74C0FC;"></i>
+                    <span>Tiktok</span>
+                </div>
+                <div class="flex gap-4 items-center">
+                    <i class="fa-solid fa-plus" style="color: #74C0FC;"></i>
+                    <span>Add new page</span>
+                </div>
+            </div>
+            <div class="shadow p-4 rounded flex flex-col ju">
+                <div class="flex gap-4 items-center">
+                    <i class="fa-regular fa-play"></i>
+                    <span>Learning</span>
+                </div>
+                <div class="flex gap-4 items-center">
+                    <i class="fa-light fa-chart-simple"></i>
+                    <span>Statistics</span>
+                </div>
+                <div class="flex gap-4 items-center">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <span>Bookmarks</span>
+                </div>
+                <div class="flex gap-4 items-center">
+                    <i class="fa-light fa-gamepad"></i>
+                    <span>Gaming</span>
+                </div>
+                <div class="flex gap-4 items-center">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <span>Bookmarks</span>
+                </div>
+                <div class="flex gap-4 items-center">
+                    <i class="fa-light fa-share-nodes"></i>
+                    <span>Share</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="middle">
+            <div class="border rounded-t-2xl w-[600px] flex items-center overflow-hidden py-4 px-5 gap-3">
+                <i class="fa-solid fa-pen"></i>
+                <input type="text" placeholder="Write something..." class="w-full">
+            </div>
+            <div class="border flex items-center justify-between py-4 px-8 rounded-b-2xl">
+                <div>
+                    <i class="fa-regular fa-image"></i>
+                    <span>Photo</span>
+                </div>
+                <div>
+                    <i class="fa-regular fa-video"></i>
+                    <span>Video</span>
+                </div>
+                <div>
+                    <i class="fa-thin fa-calendar-days"></i>
+                    <span>Event</span>
+                </div>
+                <div>
+                    <i class="fa-light fa-location-dot"></i>
+                    <span>Location</span>
+                </div>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow">
+                <div class="flex items-center mb-4">
+                    <img src="images/man.jpg" alt="Profile" width="50" height="50" class="rounded-full">
+                    <div class="ml-4">
+                        <h2 class="text-lg font-semibold">Prelly Kilman</h2>
+                    </div>
+                    <i class="fa-light fa-list"></i>
+                </div>
+                <img src="/images/sunset.jpeg" alt="Sunset" class="w-full rounded-lg">
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="border p-5 flex flex-col gap-5 rounded-xl">
+                <h3 class="font-bold text-xl">People you may know</h3>
+                <div class="flex gap-5">
+                    <div class="flex items-center gap-2">
+                        <img src="images/man.jpg" alt="" width="50" height="50" class="rounded-full">
+                        <span class="font-bold">Melissa Lavala</span>
+                    </div>
+                    <button class="bg-blue-300 rounded-lg p-2 text-blue-600 font-medium text-xs">Connect</button>
+                </div>
+                <div class="flex gap-5">
+                    <div class="flex items-center gap-2">
+                        <img src="images/man.jpg" alt="" width="50" height="50" class="rounded-full">
+                        <span class="font-bold">Melissa Lavala</span>
+                    </div>
+                    <button class="bg-blue-300 rounded-lg p-2 text-blue-600 font-medium text-xs">Connect</button>
+                </div>
+                <div class="flex gap-5">
+                    <div class="flex items-center gap-2">
+                        <img src="images/man.jpg" alt="" width="50" height="50" class="rounded-full">
+                        <span class="font-bold">Melissa Lavala</span>
+                    </div>
+                    <button class="bg-blue-300 rounded-lg p-2 text-blue-600 font-medium text-xs">Connect</button>
+                </div>
+            </div>
+
+            <div class="bg-white mt-4 p-4 rounded-lg shadow">
+                <h2 class="text-lg font-semibold mb-2">Join discussion</h2>
+                <ul>
+                    <li class="mb-2"><a href="#" class="text-gray-700">#freeinternet</a></li>
+                    <li class="mb-2"><a href="#" class="text-gray-700">#globalwarming</a></li>
+                    <li class="mb-2"><a href="#" class="text-gray-700">#cars</a></li>
+                    <li class="mb-2"><a href="#" class="text-gray-700">#iphone</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+  </body>
+</html>
